@@ -1,1 +1,36 @@
+body { font-size: 15pt; font-family: Verdana;}
+#box { width: 800px; height: 550px; margin: auto; overflow: hidden; color: #A6ABB0;}
 
+#box1 { 
+  width: 400px; 
+  height: 550px; 
+  float: left;
+  line-height: 50px;
+  background: linear-gradient(to top, #31CCB5 0%, #36E3C9 100%);
+  border-top-left-radius: 15px; border-bottom-left-radius: 15px;}
+
+#box2 { 
+  width: 400px; height: 100%; 
+  float: left;
+  line-height: 50px;
+  background-color: silver; 
+  border-top-right-radius: 15px; 
+  border-bottom-right-radius: 15px;
+  background: linear-gradient(to right top, #313442 0%, #54687D 100%);
+}
+
+#box3 { 
+width: 360px; margin-left: 40px; margin-top: 40px;
+}
+
+#login { height: 40px; float: left; border-bottom: 1px solid #54687D; margin-bottom: 20px; margin-right: 150px;}
+
+#sign_up { height: 40px; float: left;  margin-bottom: 20px; }
+
+.remember { font-size: 12pt; color: gray;}
+
+input[type="text"] {width: 260px; height: 30px; border: none; background-color: transparent; border-bottom: 1px solid #54687D;}
+
+input[type="submit"] {color: white; border: none; border-radius: 15px; width: 100px; height: 30px; box-shadow: 0 0 10px #5E6770;
+background: linear-gradient(to top, #31CCB5 0%, #36E3C9 100%); font-family: Verdana; font-size: 11pt;
+}
