@@ -38,7 +38,14 @@ width: 360px;
 
 .remember { font-size: 12pt; color: gray;}
 
-input[type="text"] {width: 260px; height: 30px; border: none; background-color: transparent; border-bottom: 1px solid #54687D;}
+input[type="text"] {
+  width: 260px; 
+  height: 30px; 
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #54687D;
+  font-size: 11pt;
+}
 
 input[type="submit"] {
   color: white; 
@@ -47,5 +54,5 @@ input[type="submit"] {
   height: 30px; 
   box-shadow: 0 0 10px #5E6770;
   background: linear-gradient(to top, #31CCB5 0%, #36E3C9 100%); 
-  font-family: Verdana; font-size: 13pt;
+  font-family: Verdana; font-size: 11pt;
 }
